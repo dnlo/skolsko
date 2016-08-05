@@ -3,30 +3,32 @@
   <head>
     <title> Bivsi amfiteatar, sad ispravljeno u teren za fudbal</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
     <meta charset="iso-8859-1" />
   </head>
   <body>
-      <div class="uvijac">
+    <div class="itemkocka containerv">
+      <div class="navigacija">
         <ul class="containerh">
           <li class="itemkocka">
             <div class="itemkocka">
               <div class="containerh">
                 <div class="itemkvadar">
                   <ul class="containerv">
-                    <li class="itemkocka kocka">
-			    <img src="./img/WP_20150529_17_34_47_Pro.jpg" />
-		    </li>
-                    <li class="itemkvadar kvadar">
-                      dole levo
+                    <li onclick="gl()" class="itemkocka kocka">
+                      gore levo
+                    </li>
+                    <li onclick="dl()" class="itemkvadar kvadar">
+                    dole levo
                     </li>
                   </ul>
                 </div>
                 <div class="itemkvadar">
                   <ul class="containerv">
-                    <li class="itemkvadar kvadar">
+                    <li onclick="mt()" class="itemkvadar kvadar">
                       gore mid
                     </li>
-                    <li class="itemkocka kocka">
+                    <li onclick="mb()" class="itemkocka kocka">
                       dole mid
                     </li>
                   </ul>
@@ -39,17 +41,17 @@
               <div class="containerv">
                 <div class="itemkocka">
                   <ul class="containerh">
-                    <li class="itemkvadar kvadar">
+                    <li onclick="dd()" class="itemkvadar kvadar">
                       duga desno
                     </li>
                   </ul>
                 </div>
                 <div class="itemkocka kocka">
                   <ul class="containerh">
-                    <li class="itemkocka kocka">
+                    <li onclick="bl()" class="itemkocka kocka">
                       dole levo
                     </li>
-                    <li class="itemkocka kocka">
+                    <li onclick="bd()" class="itemkocka kocka">
                       dole desno
                     </li>
                   </ul>
@@ -59,5 +61,34 @@
           </li>
         </ul>
       </div>
+      <div id="gl">
+        <h6 onclick="x()">X</h6>
+divno bas
+      </div>
+      <div id="dl">
+        <h6 onclick="x()">X</h6>
+divno bas mnogo
+      </div>
+      <div id="mt">
+        <h6 onclick="x()">X</h6>
+divno bas bas
+      </div>
+      <div id="mb">
+        <h6 onclick="x()">X</h6>
+divno bas preterano
+      </div>
+      <div id="dd">
+        <h6 onclick="x()">X</h6>
+divno bas skroz
+      </div>
+      <div id="bl">
+        <h6 onclick="x()">X</h6>
+divno bas,da
+      </div>
+      <div id="bd">
+        <h6 onclick="x()">X</h6>
+divno bas 100%
+      </div>
+    </div>
   </body>
 </html>
