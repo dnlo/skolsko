@@ -66,3 +66,7 @@ h6 {
 #x {
 
 }
+img {
+	max-width: 100%;
+	max-height: auto;
+}
